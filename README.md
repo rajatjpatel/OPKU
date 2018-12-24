@@ -5,6 +5,8 @@ A vagrant box that provisions
 Prerequisites
 1.	Install Oracle VM VirtualBox
 2.	Install Vagrant
+
+
 Creating a VM
 You can now ask Vagrant to start up a VM as configured by the default Vagrantfile:
 
