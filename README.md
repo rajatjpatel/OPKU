@@ -19,3 +19,6 @@ The VM is now running in Virtualbox. You can ssh into it (no password required) 
     sudo bash
 
     kubeadm init --apiserver-advertise-address=192.168.100.8 --pod-network-cidr=192.168.1.0/16
+    
+   kubectl apply -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/rbac-kdd.yaml
+    kubectl apply -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/kubernetes-datastore/calico-networking/1.7/calico.yaml
