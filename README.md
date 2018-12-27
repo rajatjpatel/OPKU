@@ -15,5 +15,7 @@ You can now ask Vagrant to start up a VM as configured by the default Vagrantfil
 The VM is now running in Virtualbox. You can ssh into it (no password required) as follows:
 
   vagrant ssh # ssh in to the VM
-sudo bash
-kubeadm init --apiserver-advertise-address=192.168.100.8 --pod-network-cidr=192.168.1.0/16
+
+    sudo bash
+
+    kubeadm init --apiserver-advertise-address=192.168.100.8 --pod-network-cidr=192.168.1.0/16
