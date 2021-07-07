@@ -23,3 +23,5 @@ The VM is now running in Virtualbox. You can ssh into it (no password required) 
     kubectl apply -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/rbac-kdd.yaml
     
     kubectl apply -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/kubernetes-datastore/calico-networking/1.7/calico.yaml
+    
+    kubeadm config images pull
